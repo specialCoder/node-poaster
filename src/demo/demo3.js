@@ -7,13 +7,13 @@
         </p>
         {
             props.names.map((item) => {
-                // const { label, value} = item;
+                // const { label, value} = item; // jsx-parser不支持
                 // return <p>{ label }</p>
                 return <p>{`${item.label}-${item.value}`}</p>
             })
             // <p>
             //     {/* {item.label}-{item.value} */}
-            //     {/* {`${item.label}`} */}
+            //     {/* {`${item.label}`} */} // jsx-parser不支持
             //     {item.label}
             // </p>)
         }
