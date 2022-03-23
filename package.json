@@ -1,0 +1,31 @@
+{
+  "name": "node-poster",
+  "version": "1.0.0",
+  "description": "生成海报服务",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/specialCoder/node-poster.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/specialCoder/node-poster/issues"
+  },
+  "homepage": "https://github.com/specialCoder/node-poster#readme",
+  "dependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/parser": "^7.17.8",
+    "@babel/preset-react": "^7.16.7",
+    "acorn": "^8.7.0",
+    "acorn-jsx": "^5.3.2",
+    "lodash": "^4.17.21",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-jsx-parser": "^1.29.0"
+  }
+}
