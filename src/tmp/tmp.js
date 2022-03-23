@@ -13,7 +13,12 @@
 //     {/* {`${item.label}`} */}
 //     {item.label}
 // </p>)
-, /*#__PURE__*/React.createElement("p", null, `${props.bar}`), props.show && /*#__PURE__*/React.createElement("p", null, "show"), /*#__PURE__*/React.createElement("pp", null, "ppp"));
+, /*#__PURE__*/React.createElement("p", {
+  style: {
+    color: props.color,
+    fontSize: '12px'
+  }
+}, `${props.bar}`), props.show && /*#__PURE__*/React.createElement("p", null, "show"), /*#__PURE__*/React.createElement("pp", null, "ppp"));
 /**
  * names.map({ label }) 不支持解构
  * <p>{`${item.label}`}</p> 不支持这种形式的模版字符串

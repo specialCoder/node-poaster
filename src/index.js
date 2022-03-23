@@ -14,6 +14,7 @@ const args = {
   bar: 'bar',
   names:[{ label:'name1', value:1}, { label:'name2', value:2}],
   show: false,
+  color:"#000"
 //   myEventHandler: () => { /* ... do stuff ... */ },
 };
 

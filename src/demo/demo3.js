@@ -17,7 +17,7 @@
             //     {item.label}
             // </p>)
         }
-        <p>{`${props.bar}`}</p>
+        <p style={{ color: props.color, fontSize:'12px' }}>{`${props.bar}`}</p>
         {
             props.show && <p>show</p>
         }
